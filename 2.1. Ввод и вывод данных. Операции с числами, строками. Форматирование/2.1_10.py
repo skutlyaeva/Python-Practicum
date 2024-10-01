@@ -1,0 +1,7 @@
+n = input()
+m = int(input())
+m = str(m)
+print("Группа", str("№") + m[0] + str("."))
+print(m[2] + str("."), n + str("."))
+print("Шкафчик:", m + str("."))
+print("Кроватка:", m[1] + str("."))
