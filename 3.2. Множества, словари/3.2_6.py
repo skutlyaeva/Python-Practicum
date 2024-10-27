@@ -9,6 +9,7 @@ for i in range(n + m):
     else:
         N.add(s)
 if len(N ^ M) != 0:
-    print(N ^ M)
+    for i in sorted(N ^ M):
+        print(i)
 else:
     print('Таких нет')
